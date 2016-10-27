@@ -1,0 +1,325 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.fancy {
+	font-family: Baskerville;
+	color: #1F0A08;	
+}
+
+.fancy-40 {
+	font-family: Baskerville;
+	font-size: 40px;
+	color: #1F0A08;		
+}
+
+.fancy-20 {
+	font-family: Baskerville;
+	font-size: 20px;
+	color: #1F0A08;	
+}
+
+.fancy-14 {
+	font-family: Baskerville;
+	font-size: 14px;
+	color: #1F0A08;
+}
+
+.plain-header {
+	font-family: Avenir;
+	font-size: 40px;
+	color: #1F0A08;
+	font-weight: 800;	
+}
+
+.plain-40 {
+	font-family: Avenir;
+	font-size: 40px;
+	color: #1F0A08;
+}
+
+.plain-30 {
+	font-family: Avenir;
+	font-size: 30px;
+	color: #1F0A08;	
+}
+
+.plain-25 {
+	font-family: Avenir;
+	font-size: 25px;
+	color: #1F0A08;		
+}
+
+.plain-20 {
+	font-family: Avenir;
+	font-size: 20px;
+	color: #1F0A08;;	
+}
+
+.plain-18 {
+	font-family: Avenir;
+	font-size: 18px;
+	color: #1F0A08;	
+}
+
+.plain-16 {
+	font-family: Avenir;
+	font-size: 16px;
+	color: #1F0A08;	
+}
+
+.plain-14 {
+	font-family: Avenir;
+	font-size: 14px;
+	color: #1F0A08;
+}
+
+.logo {
+	font-family: Baskerville;
+	display: inline-block;
+}
+
+.splash-img {
+	top: 0px;
+	filter: brightness(60%);
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.std-input-text {
+	width: 100%;
+	height: 50px;
+}
+
+.custom-container {
+	position: relative;
+	min-width: 400px;
+	width: 100%;
+	height: 100%;
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.row {
+	display: inline-flex;
+}
+
+.column {
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.content-left {
+	width: 50%;
+	margin-right: 0;
+	margin-left: 40px;
+}
+
+.content-right {
+	width: 50%;
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.content-right-60 {
+	width: 60%;
+	margin-right: 20px;
+}
+
+.content-centered {
+	width: 100%;
+}
+
+.darkened {
+	filter: brightness(60%);
+}
+
+.panel-2-margin {
+	margin-left: 25px;
+}
+
+.h-300 {
+	height: 300px;
+}
+
+.use-cases-list {
+	list-style-type: none;
+	text-align: center;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#phone-number {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	display: inline-block;
+	color: white;
+}
+
+#img-1 {
+	background-image: url('/images/hiking-cropped.jpg');
+	z-index: -11;
+}
+
+#img-2 {
+	background-image: url('/images/fire-dancing.jpeg');
+	z-index: -12;
+}
+
+#img-3 {
+	background-image: url('/images/photography-class.jpeg');
+	z-index: -13;
+}
+
+#img-4 {
+	background-image: url('/images/sushi-rolling.jpeg');
+	z-index: -14;
+}
+
+#splash-center-block {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 500px;
+
+	/*horizontal centering*/
+	margin-left: auto;
+	margin-right: auto;
+	/*vertical centering*/
+	margin-top: 200px;
+	color: white;
+	text-align: center;
+
+	border-radius: 3px;
+	font-family: Baskerville;
+	font-size: 48px;
+	font-weight: 500;
+	/*border-width: 5px;
+	border-color: #330B06;
+	border-style: solid;*/
+	/*background-color: #330B06;*/
+	/*opacity: 0;
+	box-shadow: 0px 0px 0px 8px #330B06;*/
+}
+
+#splash-logo {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	font-size: 60px;
+	font-weight: 100;
+	color: white;
+	text-decoration: none;
+
+	transition: all .25s ease;
+}
+
+
+#splash-logo:hover {
+	color: #E6D5D3;
+	cursor: pointer;
+	transition: all .25s ease;
+}
+
+#join-today {
+	height: 45px;
+	width: 150px;
+	line-height: 30px;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-variant: small-caps;
+	background-color: #330B06;
+	transition: all .1s ease;
+}
+
+#join-today:hover {
+	background-color: #1F0A08;
+	transition: all .1s ease;
+}
+
+#join-today:active {
+	color: #E6D5D3;
+}
+
+#about {
+	margin-top: 25px;
+	height: 270px;
+}
+
+#about-img {
+	border-radius: 3px;
+	width: 40%;
+	height: 93%;
+	background-image: url('/images/rolling-dough.jpg');
+	background-size: cover;
+}
+
+#maven-panel {
+	margin-top: 25px;
+	padding-top: 25px;
+	background-color: #C2827C;
+	display: inline-flex;
+}
+
+#maven-img {
+	border-radius: 3px;
+	width: 40%;
+	height: 90%;
+	background-image: url('/images/artist.jpg');
+	background-size: cover;
+}
+
+#maven-text {
+	width: 47%;
+	margin-top: -25px;
+	display: inline-block;
+}
+
+#maven-definition-area {
+	margin-top: 50px;
+	background-color: #EAEAEA;
+	padding: 10px;
+}
+
+#maven-word {
+	line-height: 20px;
+}
+
+#use-cases-panel {
+	height: 250px;
+	margin-top: 5px;
+	align-items: center;
+}
+
+#closer-panel {
+	height: 250px;
+	line-height: 250px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #330B06;
+}
+
+#closer-text {
+	line-height: 200px;
+	vertical-align: middle;
+	color: white;
+}
